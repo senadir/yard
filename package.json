@@ -1,0 +1,31 @@
+{
+  "name": "yard-cli",
+  "version": "0.0.1",
+  "description": "Yard is a tool that manages Roots' Trellis instances and websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wordpress",
+    "cli",
+    "roots",
+    "trellis",
+    "js",
+    "bedrock",
+    "sage"
+  ],
+  "author": "Nadir Seghir",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "js-yaml": "^3.12.0",
+    "lodash": "^4.17.11",
+    "shelljs": "^0.8.2"
+  },
+  "bin": {
+    "yard-cli": "./index.js"
+  }
+}
